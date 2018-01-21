@@ -9,7 +9,7 @@ scanf("%d",&n);
 while(n!=0)
 {
 n/=10;
-++count;
+--count;
 }
 printf("number of digits :%d",count);
 getch();
